@@ -2,10 +2,6 @@
 layout: false
 ---
 
-<script setup>
-import { withBase } from "vitepress"
-</script>
-
 <div class="content-hero">
   <div class="content-hero-inner">
     <div class="content-hero-label">Resume</div>
@@ -107,7 +103,7 @@ import { withBase } from "vitepress"
     <p style="font-size: 0.9rem; color: #333;">People are standing by to tell you great things. Just ask.</p>
   </div>
 
-  <a :href="withBase('/images/colleen-resume-2017.pdf')" class="resume-pdf-link" target="_blank">
+  <a href="/images/colleen-resume-2017.pdf" class="resume-pdf-link" target="_blank">
     Download PDF Resume ↓
   </a>
 

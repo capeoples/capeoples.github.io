@@ -2,10 +2,6 @@
 layout: false
 ---
 
-<script setup>
-import { withBase } from "vitepress"
-</script>
-
 <div class="content-hero">
   <div class="content-hero-inner">
     <div class="content-hero-label">Work</div>
@@ -18,7 +14,7 @@ import { withBase } from "vitepress"
     <div class="work-grid">
       <a href="/work/xpo" class="work-card">
         <div class="work-card-thumb">
-          <img :src="withBase('/images/inspection-app.gif')" alt="XPO Logistics" />
+          <img :src="'/images/inspection-app.gif'" alt="XPO Logistics" />
         </div>
         <div class="work-card-body">
           <div class="work-card-company">XPO Logistics</div>
@@ -28,7 +24,7 @@ import { withBase } from "vitepress"
       </a>
       <a href="/work/seagate" class="work-card">
         <div class="work-card-thumb">
-          <img :src="withBase('/images/nasos1.png')" alt="Seagate NAS OS" />
+          <img :src="'/images/nasos1.png'" alt="Seagate NAS OS" />
         </div>
         <div class="work-card-body">
           <div class="work-card-company">Seagate</div>
@@ -38,7 +34,7 @@ import { withBase } from "vitepress"
       </a>
       <a href="/work/lacie" class="work-card">
         <div class="work-card-thumb">
-          <img :src="withBase('/images/5big_TB1.jpg')" alt="LaCie" />
+          <img :src="'/images/5big_TB1.jpg'" alt="LaCie" />
         </div>
         <div class="work-card-body">
           <div class="work-card-company">LaCie</div>
@@ -48,7 +44,7 @@ import { withBase } from "vitepress"
       </a>
       <a href="/work/sdrive" class="work-card">
         <div class="work-card-thumb">
-          <img :src="withBase('/images/sdrive-iOS-1.png')" alt="SDrive iOS" />
+          <img :src="'/images/sdrive-iOS-1.png'" alt="SDrive iOS" />
         </div>
         <div class="work-card-body">
           <div class="work-card-company">Seagate</div>
