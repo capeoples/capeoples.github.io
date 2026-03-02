@@ -15,7 +15,7 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { font-size: 16px; }
+html { font-size: 16px; scroll-behavior: smooth; }
 
 body {
   font-family: var(--font);
@@ -507,3 +507,118 @@ img { max-width: 100%; display: block; }
   .gallery-2, .gallery-3 { grid-template-columns: 1fr; }
   .nav-links { gap: 1.25rem; }
 }
+
+/* ── One-page sections ─────────────────────────────────────── */
+
+.one-page-section {
+  padding: 5rem 2rem;
+}
+
+.one-page-section--alt {
+  background: var(--off-white);
+}
+
+.section-inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.about-lead {
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 640px;
+  margin-bottom: 1.5rem;
+}
+
+.about-body p {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #444;
+  max-width: 620px;
+  margin-bottom: 1rem;
+}
+
+/* ── Career list ───────────────────────────────────────────── */
+
+.career-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.career-item {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.career-item:first-child { padding-top: 0; }
+
+.career-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.2rem;
+  flex-wrap: wrap;
+}
+
+.career-item-role {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.career-item-dates {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.career-item-company {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.career-item--current .career-item-company {
+  color: var(--green);
+}
+
+.career-item-desc {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.65;
+  max-width: 580px;
+}
+
+/* ── Connect ───────────────────────────────────────────────── */
+
+.connect-lead {
+  font-size: 1.05rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--text);
+  max-width: 480px;
+  margin-bottom: 2rem;
+}
+
+.connect-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.connect-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--green);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+  padding-bottom: 2px;
+}
+
+.connect-link:hover { border-color: var(--green); }

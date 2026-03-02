@@ -12,7 +12,7 @@ layout: false
 <div class="work-section">
   <div class="work-section-inner">
     <div class="work-grid">
-      <a href="/work/xpo" class="work-card">
+      <a href="/archive/work/xpo" class="work-card">
         <div class="work-card-thumb">
           <img :src="'/images/inspection-app.gif'" alt="XPO Logistics" />
         </div>
@@ -22,7 +22,7 @@ layout: false
           <div class="work-card-desc">Material Design UI library, mobile and web experiences for logistics operations.</div>
         </div>
       </a>
-      <a href="/work/seagate" class="work-card">
+      <a href="/archive/work/seagate" class="work-card">
         <div class="work-card-thumb">
           <img :src="'/images/nasos1.png'" alt="Seagate NAS OS" />
         </div>
@@ -32,7 +32,7 @@ layout: false
           <div class="work-card-desc">Information architecture and UX for consumer and business network storage products.</div>
         </div>
       </a>
-      <a href="/work/lacie" class="work-card">
+      <a href="/archive/work/lacie" class="work-card">
         <div class="work-card-thumb">
           <img :src="'/images/5big_TB1.jpg'" alt="LaCie" />
         </div>
@@ -42,7 +42,7 @@ layout: false
           <div class="work-card-desc">Website product marketing templates and packaging design standards for storage hardware.</div>
         </div>
       </a>
-      <a href="/work/sdrive" class="work-card">
+      <a href="/archive/work/sdrive" class="work-card">
         <div class="work-card-thumb">
           <img :src="'/images/sdrive-iOS-1.png'" alt="SDrive iOS" />
         </div>
